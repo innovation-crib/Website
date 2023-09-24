@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/apps/website",
+    "public": "dist/apps/website/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
