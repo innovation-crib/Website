@@ -14,8 +14,8 @@
     "@angular/platform-server": "~16.2.0",
     "@angular/router": "~16.2.0",
     "@nguniversal/express-engine": "~16.2.0",
-    "express": "4.17.1",
     "@nx/angular": "16.9.0",
+    "express": "4.17.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
@@ -72,5 +72,12 @@
     "url": "https://github.com/innovation-crib/Website/issues"
   },
   "author": "Innovation Crib B.V.",
-  "license": "ISC"
+  "license": "ISC",
+  "pnpm": {
+    "overrides": {
+      "qs@>=6.7.0 <6.7.3": ">=6.7.3",
+      "postcss@<8.4.31": ">=8.4.31",
+      "@babel/traverse@<7.23.2": ">=7.23.2"
+    }
+  }
 }
