@@ -15,9 +15,15 @@
         "main": "apps/website/src/main.ts",
         "polyfills": ["zone.js"],
         "tsConfig": "apps/website/tsconfig.app.json",
-        "assets": [{
-          "glob": "*", "input": "./src/well-known", "output": "./.well-known"
-        },"apps/website/src/favicon.ico", "apps/website/src/assets"],
+        "assets": [
+          {
+            "glob": "*",
+            "input": "apps/website/src/well-known",
+            "output": "./.well-known"
+          },
+          "apps/website/src/favicon.ico",
+          "apps/website/src/assets"
+        ],
         "styles": ["apps/website/src/styles.scss"],
         "scripts": []
       },
